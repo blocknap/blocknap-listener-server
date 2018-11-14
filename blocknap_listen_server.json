@@ -1,0 +1,18 @@
+{
+  "account": "0x826E57b55989FBE434150D183eef84A6Cc4E5597",
+  "port": 8889,
+  "private": "0x6232efb63936eacd236a54d70fe0f9dbfc2e6c69ba171eeff07069decf7e9989",
+  "listenFiles": [
+    {
+      "name": "logTest",
+      "file": "logTest.js"
+    }
+  ],
+  "provider_config": "QFm0yKT4ZJQEj9PpImMI",
+  "provider":"infura_ropsten",
+  "wss":"wss://ropsten.infura.io/ws",
+  "gas": "0x1e8480",
+  "gasPrice": "0x15",
+  "path_listen": "../../listen",
+  "db": "postgresql://root@localhost:26257/blocknap?sslmode=disable"
+}
