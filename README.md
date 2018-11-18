@@ -40,6 +40,16 @@
 
 7.Execute init.sh
 
+### Prerequisites
+
+ 1. Install CockroachDB v2.0.6 
+ 
+ https://www.cockroachlabs.com/docs/releases/v2.0.6.html
+
+ 2. Create data base *blocknap*
+   
+ 3. Execute script create_table_listen_address.sql
+
 ## Call Oracle Server
 
 
