@@ -38,5 +38,43 @@
 	}
 ```
 
-
 7.Execute init.sh
+
+## Call Oracle Server
+
+
+- URL http://<ip_server>:<port>/oracle/v1/add/<name_listener_>/<address>
+- 
+- Header: Content-Type:application/json
+
+- Body (ABI of Smart Contract):
+
+```json
+{
+   "abi":"......"
+}
+```
+
+
+## Add new listener
+
+1. In folder *listen* copy logTest.js with other name
+
+2. Modify data method  with the logic of listener
+
+```javascript
+on("data", function(log){
+        console.log("> data log "+JSON.stringify(log));
+    })
+```
+
+3. Add listener to properties in section listenFiles
+
+```json
+	{
+		  "name": "<nameToCallFromManager>",
+		  "file": "<nameNewFileJSOfListener>"
+		}
+```
+
+4. Restart server
