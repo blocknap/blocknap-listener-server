@@ -53,7 +53,7 @@
 ## Call Oracle Server
 
 
-- URL http://<ip_server>:<port>/oracle/v1/add/<name_listener_>/<address>
+- URL http://**ip_server**:**port**/oracle/v1/add/**name_listener**/**address**
 - 
 - Header: Content-Type:application/json
 
@@ -64,7 +64,6 @@
    "abi":"......"
 }
 ```
-
 
 ## Add new listener
 
