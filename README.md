@@ -38,7 +38,7 @@
 	}
 ```
 
-7.Execute init.sh
+7.Init server: node index.js
 
 ### Prerequisites
 
